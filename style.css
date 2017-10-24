@@ -3,6 +3,10 @@
 	font-size: 40%;
 }
 
+body {
+	background-color: #F7F5FB;
+}
+
 body h1, body h3 {
 	text-align: center;
 	margin-bottom: 50px;
