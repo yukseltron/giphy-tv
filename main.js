@@ -7,7 +7,7 @@ function AppViewModel() {
 
 	console.log("EAD:", request);
 
-	$("#tv").attr('src', request);
+	this.url = request;
 
 
 /*
