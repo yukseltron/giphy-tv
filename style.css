@@ -13,6 +13,10 @@ body h1, body h3 {
 	margin-top: 50px;
 }
 
+body h3 {
+	font-size: 1.5vmax;
+}
+
 body img {
 	width: auto;
 	min-height: 20vmax;
@@ -23,4 +27,15 @@ body img {
 	border-color: black;
 	display:block;
 	margin: auto;
+}
+
+input, textarea, select {
+	margin-left: 10px;
+	font-weight: lighter;
+	border: none;
+    outline: 0;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border: none;
 }
