@@ -14,6 +14,9 @@ body h1, body h3 {
 }
 
 body img {
+	width: auto;
+	min-height: 20vmax;
+	max-height: 1vmin;
 	border-top: 30px;
 	border-bottom: 30px;
 	border-style: inset;
