@@ -1,8 +1,3 @@
-
-#tiny {
-	font-size: 40%;
-}
-
 body {
 	background-color: #F7F5FB;
 }
@@ -38,4 +33,18 @@ input, textarea, select {
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border: none;
+}
+
+.pure-g [class *="p-theme"] {
+	/* Set your content font stack here: */
+	font-family: monospace;
+}
+
+.p-theme {
+	text-align: center;
+	font-size: 0.95vmax;
+}
+
+#tiny {
+	font-size: 40%;
 }
