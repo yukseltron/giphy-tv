@@ -8,19 +8,23 @@ function AppViewModel() {
 	var query;
 
 	this.url = ko.computed(function() {
-		var img;
 		chan = this.channel();
+		var img = "https://media2.giphy.com/media/Yqn9tE2E00k4U/giphy.gif";
 
-		if (chan === "") {
-			query = "https://api.giphy.com/v1/gifs/search?api_key=SPI6LMY5gmLf6GFxoQwehrP6mTm6yE0I&q=static&limit=1&offset=0&rating=PG-13&lang=en";
+		if (chan == "") {
+			img = "https://media.giphy.com/media/lCkumTggV53xe/giphy.gif";
 		} else {
 			query = "https://api.giphy.com/v1/gifs/search?api_key=SPI6LMY5gmLf6GFxoQwehrP6mTm6yE0I&q=" + chan + "&limit=1&offset=0&rating=PG-13&lang=en";
+
+			$.getJSON(query, function(json) {
+				console.log("length:",json.data.length);
+				if (json.data.length == 0) {
+					img = "https://media.giphy.com/media/lCkumTggV53xe/giphy.gif";
+				} else {
+					img = json.data[0].images.original.url;
+				}
+			});
 		}
-
-
-		$.getJSON(query, function (json) {
-			img = json.data[0].images.original.url;
-		});
 
 		return img;
 	}, this);
