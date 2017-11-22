@@ -24,6 +24,15 @@ body img {
 	margin: auto;
 }
 
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 input, textarea, select {
 	margin-left: 10px;
 	font-weight: lighter;
@@ -43,6 +52,14 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 .p-theme {
 	text-align: center;
 	font-size: 0.95vmax;
+}
+
+.p-footer {
+	margin-top: 80px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 #tiny {
