@@ -21,7 +21,7 @@ a little bit of ❤️
 
 
 
-# Planned updates:
+# Planned updates
 
 • Allow for gif searching based on rating (ie pg, pg-13, R).
 
