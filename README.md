@@ -5,10 +5,19 @@ Search and watch GIFs on a digital tv screen.
 
 
 
-Made with [Knockout.js](http://knockoutjs.com/)
+
+# Made with 
+
+[Knockout.js](http://knockoutjs.com/)
+
 and [Pure.css](https://purecss.io/)
+
 and [Giphy API](https://developers.giphy.com/)
+
 and a little bit of ❤️
+
+
+
 
 # Planned updates:
 
@@ -17,6 +26,9 @@ and a little bit of ❤️
 • Build a schedule to run certain types of gifs based on actual time, similar to a typical tv station.
 
 • Find a way to intergrate music relative to the gif searched for and found.
+
+
+
 
 
 
