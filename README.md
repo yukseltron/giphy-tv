@@ -1,7 +1,9 @@
 # giphy-tv
 
 
-Search and watch GIFs on a digital tv screen.
+Search and watch GIFs on a digital tv screen 📺.
+
+[See the site](http://yooksel.com/giphy-tv/)
 
 
 
@@ -10,11 +12,11 @@ Search and watch GIFs on a digital tv screen.
 
 [Knockout.js](http://knockoutjs.com/)
 
-and [Pure.css](https://purecss.io/)
+[Pure.css](https://purecss.io/)
 
-and [Giphy API](https://developers.giphy.com/)
+[Giphy API](https://developers.giphy.com/)
 
-and a little bit of ❤️
+a little bit of ❤️
 
 
 
@@ -27,9 +29,3 @@ and a little bit of ❤️
 
 • Find a way to intergrate music relative to the gif searched for and found.
 
-
-
-
-
-
-[See the site](http://yooksel.com/giphy-tv/)
