@@ -3,7 +3,7 @@
 
 Search and watch GIFs on a digital tv screen 📺.
 
-[See the site](http://yooksel.com/giphy-tv/)
+[See the site](https://yukseltron.github.io/giphy-tv/)
 
 
 
